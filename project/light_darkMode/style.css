@@ -1,0 +1,22 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+body{
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+
+#mode{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(90, 97, 94);
+    border-radius: 15px;
+}
